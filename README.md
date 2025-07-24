@@ -1,4 +1,4 @@
-# 🔐 NexaAuth - Backend Authentication Setup
+# 🔐 NexaAuth - Backend Authentication Setup <h3>Template</h3>
 
 A minimal backend template built using **Node.js** and **Express.js** to handle user authentication. This starter pack helps you quickly set up secure login, registration, and protected routes using JSON Web Tokens (JWT).
 
