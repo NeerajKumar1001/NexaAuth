@@ -1,16 +1,16 @@
-# 🔐 NexaAuth - Backend Authentication Setup <h3>Template</h3>
+# 🔐 NexaAuth - Backend Authentication Template
 
-A minimal backend template built using **Node.js** and **Express.js** to handle user authentication. This starter pack helps you quickly set up secure login, registration, and protected routes using JSON Web Tokens (JWT).
+NexaAuth is a minimal, modular backend template built with **Node.js** and **Express.js** for robust user authentication. This starter kit enables rapid setup of secure login, registration, and protected routes using JSON Web Tokens (JWT).
 
 ---
 
 ## ⚙️ Features
 
-- 🔑 JWT-based Authentication
-- 🔐 Password Hashing with Bcrypt
-- 🔁 Token Validation Middleware
-- 📦 Modular Express Setup
-- 🌱 Ready-to-extend structure for full-stack apps
+- JWT-based authentication
+- Secure password hashing with Bcrypt
+- Token validation middleware
+- Modular Express architecture
+- Scalable structure for full-stack applications
 
 ---
 
@@ -35,7 +35,7 @@ NexaAuth/
 
 - Node.js
 - Express.js
-- MongoDB *(planned)*
+- MongoDB *(integration planned)*
 - JWT (JSON Web Tokens)
 - Bcrypt
 
@@ -56,9 +56,9 @@ cd NexaAuth/backend
 npm install
 ```
 
-### 3. Set Up Environment Variables
+### 3. Configure Environment Variables
 
-Create a `.env` file in the `backend` folder with the following content:
+Create a `.env` file in the `backend` directory with the following content:
 
 ```env
 PORT=5000
@@ -74,24 +74,23 @@ npm start
 
 ---
 
-## 📌 API Endpoints (Planned)
+## 📌 Planned API Endpoints
 
-| Method | Endpoint         | Description            |
-|--------|------------------|------------------------|
-| POST   | `/api/register`  | Register a new user    |
-| POST   | `/api/login`     | Log in and get token   |
-| GET    | `/api/protected` | Access protected route |
+| Method | Endpoint         | Description              |
+|--------|------------------|--------------------------|
+| POST   | `/api/register`  | Register a new user      |
+| POST   | `/api/login`     | Authenticate and get JWT |
+| GET    | `/api/protected` | Access protected route   |
 
-> These endpoints are under development. Check back soon!
+> *Endpoints are under development. Stay tuned for updates.*
 
 ---
 
-## 🙋‍♂️ Author
+## 👤 Author
 
 **Neeraj Kumar**  
-🧑‍💻 MERN Stack Developer | Java Enthusiast  
-🔗 [GitHub](https://github.com/NeerajKumar1001)  
-🔗 [LinkedIn](https://www.linkedin.com/in/neeraj-kumar1001)
+MERN Stack Developer | Java Enthusiast  
+[GitHub](https://github.com/NeerajKumar1001) • [LinkedIn](https://www.linkedin.com/in/neeraj-kumar1001)
 
 ---
 
@@ -101,9 +100,10 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-> ⚠️ Note: This is a backend-only educational template. For production, always include:
+> **Note:**  
+> This template is intended for educational purposes and backend prototyping. For production use, ensure to implement:
 > - Input validation  
 > - Rate limiting  
-> - Logging & monitoring  
-> - Error handling best practices
+> - Comprehensive logging and monitoring  
+> - Robust error handling
 
