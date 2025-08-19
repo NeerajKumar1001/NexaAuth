@@ -29,6 +29,4 @@ const userSchema = new mongoose.Schema({
 },{timestamps: true});
 
 
-export const User = mongoose.model("User", userSchema);
-
-    const existingUser = await User.find
+export const User = mongoose.model('User', userSchema);
